@@ -29,9 +29,9 @@
         <div class="col-md-4 ">
           <h5>Siguenos</h5>
           <div class="icono-wrap" id="iconos">
-            <a href="#"><i class="bi bi-facebook"></i></a>
-            <a href="#"><i class="bi bi-twitter"></i></a>
-            <a href="#"><i class="bi bi-instagram"></i></a>
+            <a href="https://es-la.facebook.com/"><i class="bi bi-facebook"></i></a>
+            <a href="https://twitter.com/x"><i class="bi bi-twitter"></i></a>
+            <a href="https://www.instagram.com/"><i class="bi bi-instagram"></i></a>
            </div>
         </div>
       </div>
