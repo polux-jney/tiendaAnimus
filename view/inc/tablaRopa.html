@@ -1,0 +1,39 @@
+
+<div class="table-responsive">
+<table class="table table-striped align-middle">
+    <thead>
+     <tr>
+        <th>id</th>
+        <th>Coleccion</th>
+        <th>Género</th>
+         <th>Precio</th>
+         <th>Rebajas</th>
+         <th>Imagen</th>
+     </tr>
+    </thead>
+    <tbody>
+     <tr ng-repeat="ropa in ropas | filter:busqueda ">
+         <td>{{ropa.id }}</td>
+         <td>{{ropa.Coleccion}}</td>
+         <td>{{ropa.categoria}}</td>
+         <td>{{ropa.precio}}</td>
+         <td>{{ropa.Rebajas}}</td>
+         <td><img ng-src="{{ropa.img}}" class="" alt="" width="150px" height="150px"></td>
+        </tr>
+        <tr>
+            <td colspan="6" class="text-center" ng-if="(ropas | filter:busqueda).length === 0">No hay coincidencias con el filtro.</td>
+        </tr>    
+    </tbody>
+    <tfoot>
+     <tr>
+        <th>id</th>
+        <th>Nombre</th>
+        <th>Género</th>
+        <th>Coleccion</th>
+        <th>Rebajas</th>
+        <th>Imagen</th>
+     </tr>
+    </tfoot>
+ </table>
+ 
+</div>

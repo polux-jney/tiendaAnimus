@@ -1,0 +1,125 @@
+{
+    "ropas":[
+        {
+          "id": 0,
+          "nombre": "Suéter Cerrado Manga Larga",
+          "precio": "$1,024.23",
+          "img": "/img/sueterM1.jpeg",
+          "categoria": "mujer",
+          "Coleccion": "Suéteres",
+          "Rebajas": "Si",
+          "Descripcion":"Suéter, manga larga, cuello redondo, rib en cuello, puños y bajo, color negro."
+        },
+        {
+          "id": 1,
+          "nombre": "Jeans Skinny Tapered",
+          "precio": "$524.23",
+          "img": "/img/pantalonH1.jpeg",
+          "categoria": "hombre",
+          "Coleccion": "Jeans",
+          "Rebajas": "Si",
+          "Descripcion":"Jeans fit skinny tapered, color negro, con 5 bolsillos, cierre cubierto por tapeta, botón metalizado, proceso biowash, el cual es más amigable con el medio ambiente. Ofrecen comodidad, son ideales para usar en cualquier temporada."
+        },
+        {
+          "id": 2,
+          "nombre":"Playera Cropped Manga Corta",
+          "precio": "$424.23",
+          "img": "/img/playeraM1.jpeg",
+          "categoria": "mujer",
+          "Coleccion": "Playeras",
+          "Rebajas": "Si",
+          "Descripcion":"Playera cropped de manga corta y cuello redondo."
+        },
+        {
+          "id": 3,
+          "nombre":"Sudadera Cerrada Estampada",
+          "precio": "$624.23",
+          "img": "/img/sudarderaH1.jpeg",
+          "categoria": "hombre",
+          "Coleccion": "Sudaderas",
+          "Rebajas": "Si",
+          "Descripcion":"Sudadera cerrada, cuello redondo, color blanco, manga larga, puños, bajo y cuello acanalados, estampado frontal. La sudadera ideal que va con tu mood del día."
+        },
+        {
+          "id": 4,
+          "nombre":"Boina Con Cadena",
+          "precio": "$324.23",
+          "img": "/img/gorraM1.jpeg",
+          "categoria": "mujer",
+          "Coleccion": "Gorras",
+          "Rebajas": "No",
+          "Descripcion":"Boina, color negro, de piel sintética, con detalles de metal en la vicera. Eleva tu look con estilo."
+        },
+        {
+          "id": 5,
+          "nombre":"Cinturón Hebilla Negro",
+          "precio": "$224.23",
+          "img": "/img/accesorioH1.jpeg",
+          "categoria": "hombre",
+          "Coleccion": "Accesorios",
+          "Rebajas": "No",
+          "Descripcion":"Cinturón, color negro, con hebilla metálica y material sintetico."
+        },
+        {
+          "id": 6,
+          "nombre":"Suéter Pullover Animal Print",
+          "precio": "$1,024.23",
+          "img": "/img/sueterH1.jpeg",
+          "categoria": "hombre",
+          "Coleccion": "Suéteres",
+          "Rebajas": "No",
+          "Descripcion":"Suéter cuello redondo, color negro, fit oversize, de jaqcuard, con animal print en textura peinada."
+        },
+        {
+          "id": 7,
+          "nombre":"Jeans Push Up",
+          "precio": "$524.23",
+          "img": "/img/pantalonM1.jpeg",
+          "categoria": "mujer",
+          "Coleccion": "Jeans",
+          "Rebajas": "No",
+          "Descripcion":"Jeans fit push up, efecto de lavado, y efecto suavizado, cuenta con bolsillos delanteros y traseros, cierre frontal con cremallera y botón metalizado, su diseño cuenta con pinzas en la parte trasera para el realce de la figura, su tela con stretch para mayor comodidad, además de proceso biowash el cual es más amigable con el medio ambiente."
+        },
+        {
+          "id": 8,
+          "nombre":"Playera Relaxed Manga Corta",
+          "precio": "$424.23",
+          "img": "/img/playeraH1.jpeg",
+          "categoria": "hombre",
+          "Coleccion": "Playeras",
+          "Rebajas": "No",
+          "Descripcion":"Playera manga corta, cuello redondo, color negro, fit relajado. Son perfectas para combinar todos los días con cualquier estilo."
+        },
+        {
+          "id": 9,
+          "nombre":"Sudadera Cerrada Estampada",
+          "precio": "$624.23",
+          "img": "/img/sudarderaM1.jpeg",
+          "categoria": "mujer",
+          "Coleccion": "Sudaderas",
+          "Rebajas": "No",
+          "Descripcion":"Sudadera cerrada, cuello redondo, color blanco con estampado de rayas a contraste en color negro, bajo, puños y cuello acanalados."
+        },
+        {
+          "id": 10,
+          "nombre":"Gorra",
+          "precio": "$324.23",
+          "img": "/img/gorraH1.jpeg",
+          "categoria": "hombre",
+          "Coleccion": "Gorras",
+          "Rebajas": "No",
+          "Descripcion":"Gorra color negro bordada Red Socks con bordado a tono. Eleva tu look con estilo"
+        },
+        {
+          "id": 11,
+          "nombre":"Bolso Mini Crossbody",
+          "precio": "$224.23",
+          "img": "/img/accesorioM1.jpeg",
+          "categoria": "mujer",
+          "Coleccion": "Accesorios",
+          "Rebajas": "No",
+          "Descripcion":"bolso tamaño mini, color negro, piel sintetica, con maneral y cierre con tapa, cuenta con asa larga ajustable."
+        }
+        
+      ]
+}

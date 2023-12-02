@@ -1,0 +1,267 @@
+/*==================GLOBALES=====================*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Hedvig Letters Serif', serif;
+    overflow-x: hidden;
+}
+
+
+
+/*==================header=====================*/
+
+header {
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    line-height: 100px;
+    background-color: #95A6BC;
+    /*altura en el elemento imedio*/
+}
+
+/*==================aside=====================*/
+aside {
+    float: center;
+    width: auto;
+    background-color: #19829C;
+    padding: 10px;
+    min-height: 250px;
+    line-height: 1.5;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+section{
+    background-color: #fbfafa;
+    padding-top: 20px;
+}
+
+.cart{
+    background-color: #0EC3EA;
+    padding-top: 20px;
+}
+
+
+
+
+/*==================MENU=====================*/
+
+#menu li > a{
+    font-size: 18px;
+    font-weight: bold;
+    color: #3f3f3f;    
+}
+
+#menu form > button{
+    font-size: 18px;
+    font-weight: bold;
+}
+#menu{
+    background-color: #95A6BC;
+}
+
+
+
+
+
+/*==================SLIDER DE IMAGENES=====================*/
+
+.carousel-inner{
+    max-height: 39rem;
+}
+
+
+
+/*==================SECCION NUESTERO EQUIPO IMAGENES=====================*/
+
+
+
+/*==================SECCION NUESTERO EQUIPO MAPA=====================*/
+.mapa{
+ 
+    width: 90%;
+    height: 500px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#local{
+    background: #fbfafa;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper{
+    width: 100%;
+    padding-top: 90px;
+    margin-left: 20px;
+}
+
+/*==================SECCION NUESTERO EQUIPO LUGAR=====================*/
+
+#numeros-local div{
+    padding: 0 20px 0 0;
+    margin: 20px 20px 0 0;
+    height: 48px;
+}
+
+#numeros-local div:not(:last-child){
+    border-right: 2px solid #3f3f3f;
+}
+
+#numeros-local div:not(:firs-child){
+    padding-left: 10px;
+}
+
+#numeros-local p{
+    margin: 10;
+    text-align: center;
+}
+
+/*==================CONTACTOS BG=====================*/
+#bg-contactos{
+    position:relative;
+    
+} 
+
+ #seccion-contacto{
+    background-color: #fbfafa;
+    min-height:800px;
+    position:relative;
+    background: rgb(2,0,36);
+background: linear-gradient(149deg, rgba(2,0,36,1) 0%, rgba(70,125,211,0.8099614845938375) 50%, rgba(0,212,255,1) 100%);
+}   
+
+
+/*==================CONTACTOS FORMULARIO=====================*/
+
+#contenedor-formulario{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    background: #fbfafa;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    max-width: 500px;
+}
+
+#titulo-formulario{
+    color: #3f3f3f;
+}
+
+/*==================FOOTER=====================*/
+
+footer{
+    background: #123549;
+    min-height: 100px;
+    padding-top: 5px;
+    
+
+}
+
+footer p, h5{
+    color: #f3f3f3;
+    text-align: left;
+}
+
+#iconos{
+    font-size: 26px;
+    padding: 0 8px;
+    color: #f3f3f3;
+    
+
+}
+svg{
+    height: 52px;
+
+}
+#enlace{
+   
+    padding: 0 8px;
+    color: #f3f3f3;
+
+}
+
+a:link,
+a:visited {
+    /*decoracion para los link*/
+    color: #f3f3f3;
+    text-decoration: none;
+}
+
+
+
+.logi{
+    color: #e3f6f5;
+    background: rgb(2,0,36);
+background: linear-gradient(149deg, rgba(2,0,36,1) 0%, rgba(70,125,211,0.8099614845938375) 50%, rgba(0,212,255,1) 100%);
+}
+/*==================MEDIA QUERIES PANTALLA ANCHA=====================*/
+
+@media(max-width: 1200px){
+    #local{
+        flex-wrap: wrap;
+        padding-top: 30px;
+    }
+
+    .wrapper{
+        width: 90%;
+        margin: auto;
+        padding-top: 50px;
+    }
+   
+}
+
+/*==================MEDIA QUERIES PANTALLA SM=====================*/
+
+@media(max-width:768px){
+    #intro, #equipo{
+        width: 90%  !important;
+    }
+
+    .servicio-fila{
+        width: 100% !important;
+        text-align: center;
+    }
+    .contai{
+        min-height: calc(65vh ) !important;
+    }
+     
+}
+
+
+/*==================MEDIA QUERIES PANTALLA EXTRA-SM=====================*/
+
+@media(max-width: 576px){
+    .icono-wrap{
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+    .oculto{
+        display: none;
+    }
+    footer p, h5{
+        
+        text-align: center;
+    }
+}

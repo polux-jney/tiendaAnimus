@@ -1,0 +1,21 @@
+
+formatos
+[
+  '{{repeat(10)}}',
+  {
+    id: '{{index()}}',
+    isActive: '{{bool()}}',
+    sueldo: '{{floating(1000, 4000, 2, "$0,0.00")}}',
+    age: '{{integer(20, 40)}}',
+    name: '{{firstName()}} {{surname()}}',
+    gender: '{{gender()}}',
+    departamento: '{{random("RH", "Finanzas", "TI")}}',
+    email: '{{email()}}',
+    phone: '+55 {{phone()}}',
+    address: '{{integer(100, 999)}} {{street()}}, {{city()}}, {{state()}}, {{integer(100, 10000)}}',
+    registered: '{{date(new Date(2014, 0, 1), new Date(), "YYYY-MM-ddThh:mm:ss Z")}}'
+  }
+]
+
+pagina: https://json-generator.com/
+
