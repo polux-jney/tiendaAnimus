@@ -40,14 +40,14 @@
     
     <section>
     <div class="col-md-6">
-          <button  type="button" class="btn btn-link " ng-click="filter()" ><h4>Filtros</h4></button>
-          <button  type="button" class="btn btn-link " ng-click="filterDes()" ><h4>Descuentos</h4></button>
+          <button  type="button" class="btn btn-link " ng-click="filter()" ><h5>Filtros</h5></button>
+          <button  type="button" class="btn btn-link " ng-click="filterDes()" ><h5>Descuentos</h5></button>
 
         </div>
       <aside  ng-show="mostrarFil">
       <div class="row w-75 mx-auto servicio-fila" >
         <div class="col-lg-12 col-md-12 col-sm-12 d-flex my-3 icono-wrap">
-               <h5> Categorías: </h5>
+               <h5 class="h5t"> Categorías: </h5>
                 <br>
                 <select ng-model="busqueda.categoria" id="miSelect0" class="form-select  form-select-sm">
                     <option value=""></option>
@@ -58,14 +58,14 @@
 
         </div>
         <div class="col-lg-12 col-md-12 col-sm-12 d-flex my-3 icono-wrap">
-            <h5> Coleccion: </h5>
+            <h5 class="h5t"> Coleccion: </h5>
             <br>
             <select ng-model="busqueda.Coleccion" name="" id="miSelect1" class="form-select form-select-sm" ng-options="coleccion.id as coleccion.nombre for coleccion in colecciones">
         
           </select>
         </div>
         <div class="col-lg-12 col-md-12 col-sm-12 d-flex my-3 icono-wrap">
-        <h5> Descuento: </h5>
+        <h5 class="h5t"> Descuento: </h5>
                 <br>
                 <select ng-model="busqueda.Rebajas" id="miSelect2" class="form-select  form-select-sm">
                     <option value=""></option>
@@ -76,8 +76,8 @@
         </div>
       </div>
       <div class="col-md-6">
-          <button  type="button" class="btn btn-link " ng-click="cancelar()"><h5>Cancelar</h5></button>
-          <button  type="button" class="btn btn-link " ng-click="limpiar()"><h5>Limpiar</h5></button>
+          <button  type="button" class="btn btn-link " ng-click="cancelar()"><h5 class="h5t">Cancelar</h5></button>
+          <button  type="button" class="btn btn-link " ng-click="limpiar()"><h5 class="h5t">Limpiar</h5></button>
 
         </div>
        
@@ -88,20 +88,34 @@
       <div class="row w-75 mx-auto servicio-fila my-2">
 
         
-      <div class="col-lg-6 col-md-12 col-sm-12 d-flex my-2 icono-wrap" ng-repeat="ropaDes in ropas" ng-if="ropaDes.Rebajas === 'Si'">
+     <!--  <div class="col-lg-6 col-md-12 col-sm-12 d-flex my-2 icono-wrap" ng-repeat="ropaDes in ropas" ng-if="ropaDes.Rebajas === 'Si'">
           <img ng-src="{{ropaDes.img}}" class="" alt="" width="180" height="160px">
           <div>
             <h3 class="fs-5 mt-4 px-4">{{ropaDes.nombre}}</h3>
             <p class="px-4">{{ropaDes.Descripcion}}  </p>
             <h6 class="fs-5 mt-4 px-4">{{ropaDes.precio}}</h6> <span class="badge rounded-pill text-bg-danger">Descuento 50%</span>
           </div>
+      </div> -->
+
+      <!-- Placeholdder -->
+
+      <div class="card col-lg-6 col-md-12 col-sm-12 d-flex my-2 icono-wrap" ng-repeat="ropaDes in ropas" ng-if="ropaDes.Rebajas === 'Si'">
+        <img ng-src="{{ropaDes.img}}" class="card-img-top" alt="..." width="392px" height="372px">
+        <div class="card-body">
+          <h5 class="card-title">{{ropaDes.nombre}}</h5>
+          <p class="card-text">{{ropaDes.Descripcion}} </p>
+         <div class="col-lg-6 col-md-12 col-sm-12 d-flex ali">
+          <h6 class="card-subtitle m-1">{{ropaDes.precio}}</h6>
+          <a href="#" class="btn badge rounded-pill text-bg-danger m-1">Descuento del 50%</a>
+          </div>
+        </div>
       </div>
 
-     
+             
         
     </div>
       <div class="col-md-6">
-          <button  type="button" class="btn btn-link " ng-click="cancelar()"><h5>Cancelar</h5></button>
+          <button  type="button" class="btn btn-link " ng-click="cancelar()"><h5 class="h5t">Cancelar</h5></button>
         </div>
       </aside>
     

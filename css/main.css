@@ -47,9 +47,13 @@ section{
     padding-top: 20px;
 }
 
+.h5t{
+    color: #e3f6f5;
+}
+
 .cart{
-    background-color: #0EC3EA;
-    padding-top: 20px;
+/*     background-color: #0EC3EA;
+ */    padding-top: 20px;
 }
 
 
@@ -179,7 +183,7 @@ footer{
 
 }
 
-footer p, h5{
+footer {
     color: #f3f3f3;
     text-align: left;
 }
@@ -210,6 +214,7 @@ a:visited {
 }
 
 
+/*==================Login=====================*/
 
 .logi{
     color: #e3f6f5;
