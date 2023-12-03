@@ -7,13 +7,13 @@
        <div id="carouselExampleControls" class="carousel slide my-3" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active" data-bs-interval="5000">
-            <img src="img/Photo110.jpg" class="d-block w-100" alt="Slider1">
+            <img src="img/bannserjs.jpg" class="d-block w-100" alt="Slider1">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
-            <img src="img/photo 2.jpg" class="d-block w-100" alt="Slider3">
+            <img src="img/photo7.jpg" class="d-block w-100" alt="Slider3">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
-            <img src="img/photo 3.jpg" class="d-block w-100" alt="Slider3">
+            <img src="img/Photo6.jpg" class="d-block w-100" alt="Slider3">
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -106,7 +106,7 @@
           <p class="card-text">{{ropaDes.Descripcion}} </p>
          <div class="col-lg-6 col-md-12 col-sm-12 d-flex ali">
           <h6 class="card-subtitle m-1">{{ropaDes.precio}}</h6>
-          <a href="#" class="btn badge rounded-pill text-bg-danger m-1">Descuento del 50%</a>
+          <a href="#" class="btn badge rounded-pill text-bg-danger m-1">Descuento del 30%</a>
           </div>
         </div>
       </div>
