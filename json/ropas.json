@@ -3,7 +3,7 @@
         {
           "id": 0,
           "nombre": "Suéter Cerrado Manga Larga",
-          "precio": "$1,024.23",
+          "precio": "$9024.23",
           "img": "/img/sueterM1.jpeg",
           "categoria": "mujer",
           "Coleccion": "Suéteres",
@@ -43,7 +43,7 @@
         {
           "id": 4,
           "nombre":"Boina Con Cadena",
-          "precio": "$324.23",
+          "precio": "$424.23",
           "img": "/img/gorraM1.jpeg",
           "categoria": "mujer",
           "Coleccion": "Gorras",
@@ -53,7 +53,7 @@
         {
           "id": 5,
           "nombre":"Cinturón Hebilla Negro",
-          "precio": "$224.23",
+          "precio": "$324.23",
           "img": "/img/accesorioH1.jpeg",
           "categoria": "hombre",
           "Coleccion": "Accesorios",
@@ -63,7 +63,7 @@
         {
           "id": 6,
           "nombre":"Suéter Pullover Animal Print",
-          "precio": "$1,024.23",
+          "precio": "$7024.23",
           "img": "/img/sueterH1.jpeg",
           "categoria": "hombre",
           "Coleccion": "Suéteres",
@@ -83,7 +83,7 @@
         {
           "id": 8,
           "nombre":"Playera Relaxed Manga Corta",
-          "precio": "$424.23",
+          "precio": "$524.23",
           "img": "/img/playeraH1.jpeg",
           "categoria": "hombre",
           "Coleccion": "Playeras",
@@ -103,7 +103,7 @@
         {
           "id": 10,
           "nombre":"Gorra",
-          "precio": "$324.23",
+          "precio": "$424.23",
           "img": "/img/gorraH1.jpeg",
           "categoria": "hombre",
           "Coleccion": "Gorras",
@@ -113,7 +113,7 @@
         {
           "id": 11,
           "nombre":"Bolso Mini Crossbody",
-          "precio": "$224.23",
+          "precio": "$524.23",
           "img": "/img/accesorioM1.jpeg",
           "categoria": "mujer",
           "Coleccion": "Accesorios",
